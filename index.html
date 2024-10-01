@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/new_reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>Prising</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__start">
+                <form class="nav__form" action="/search" method="GET" role="search" aria-label="Site search">
+                    <input class="nav__form--input" name="q" id="site-search-input" autocomplete="off"
+                        placeholder="Search for courses, lessons, resources an..." required >
+                    <button type="submit" class="nav__form--button" aria-label="Search">
+                        <img src="img/search.png" alt="Search icon">
+                    </button>
+                </form>
+            </div>
+            <div class="nav__end">
+                <div class="nav__links">
+                    <div class="nav__links--group nav__links--group1">
+                        <a href="#" class="nav__link">All Courses</a>
+                        <a href="#" class="nav__link">For Business</a>
+                    </div>
+                    <div class="nav__links--group nav__links--group2">
+                        <a href="#" class="nav__link">Log In</a>
+                        <button class="nav__button">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section--hero">
+            <div class="container">
+                <div class="container__info">
+                    <h1 class="info__title">Pricing Plans</h1>
+                    <p class="info__paragraphs">Upgrade your skills. Choose a plan that works for your budget and career
+                        goals.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h1 class="visually-hidden">1</h1>
+            <div class="container">
+                <div class="cards">
+                    <div class="card card__one">
+                        <h2 class="card__title">Most popular!</h2>
+                        <div class="card__plan">
+                            <div class="card__plan--titles">
+                                <h2 class="card__plan--title--one">All Access Membership</h2>
+                                <p class="card__plan--paragraphs--one">Basic</p>
+                                <p class="card__plan--paragraphs--two">Includes all courses from many programs</p>
+                            </div>
+                            <div class="card__plan--form">
+                                <h2 class="card__plan--title--two">Pick your plan:</h2>
+                                <div class="card__plan--group card__plan--group1">
+                                    <label class="card__plan--label" for="plan1">
+                                        <span class="label__h2">$47<span class="label__span">/month</span></span>
+                                        <span class="label__paragraph">(pay annually — $564 / year)</span>
+                                        <span class="label__paragraph--discount">Save 30%!</span>
+                                    </label>
+                                    <input class="card__plan--input" type="radio" id="plan1" name="plan" value="1">
+                                </div>
+                                <div class="card__plan--group card__plan--group2">
+                                    <label class="card__plan--label" for="plan2">
+                                        <span class="label__h2">$87<span class="label__span">/month</span></span>
+                                        <span class="label__paragraph">(pay per month)</span>
+                                    </label>
+                                    <input class="card__plan--input" type="radio" id="plan2" name="plan" value="2">
+                                </div>
+                                <button class="card__plan--button">Enroll Now</button>
+                            </div>
+                            <div class="card__plan--includes">
+                                <h2 class="card__plan--paragraphs--two">Includes:</h2>
+                                <div class="card__plan--include"><img src="img/mark.png" alt="mark">All 100+ Courses<a
+                                        href="#"><img src="img/question.png" alt="questions"></a></div>
+                                <div class="card__plan--include"><img src="img/mark.png" alt="mark">All 4 Certificate
+                                    Programs<a href="#"><img src="img/question.png" alt="questions"></a></div>
+                                <div class="card__plan--include"><img src="img/mark.png" alt="mark">Excel, PPT, and PDF
+                                    Files</div>
+                                <div class="card__plan--include"><img src="img/mark.png" alt="mark">Digital Blockchain
+                                    Verified Certificates</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card__two">
+                        <h2 class="card__title card__title--two">Most benefits!</h2>
+                        <div class="card__plan">
+                            <div class="card__plan--titles">
+                                <h2 class="card__plan--title--one">All Access Membership</h2>
+                                <p class="card__plan--paragraphs--one">Full-Immersion</p>
+                                <p class="card__plan--paragraphs--two">Everything in the Basic plan, plus more</p>
+                            </div>
+                            <div class="card__plan--form">
+                                <div class="card__plan--group card__plan--group1">
+                                    <label class="card__plan--label card__plan--label--two" for="plan1">
+                                        <span class="label__h2">$77<span class="label__span">/month</span></span>
+                                        <span class="label__paragraph">(pay annually — $924 / year)</span>
+                                    </label>
+                                </div>
+                                <button class="card__plan--button card__plan--button--two">Enroll Now</button>
+                            </div>
+                            <div class="card__plan--includes">
+                                <h2 class="card__plan--paragraphs--two">Everything in Basic, plus:</h2>
+                                <div class="card__plan--include"><img src="img/mark2.png" alt="mark2">Capital IQ & EIKON
+                                    Partner Integrations</div>
+                                <div class="card__plan--include"><img src="img/mark2.png" alt="mark2">Premium Email
+                                    Support<a href="#"><img src="img/question.png" alt="questions"></a></div>
+                                <div class="card__plan--include"><img src="img/mark2.png" alt="mark2">Model Review &
+                                    Feedback<a href="#"><img src="img/question.png" alt="questions"></a></div>
+                                <div class="card__plan--include"><img src="img/mark2.png" alt="mark2">Additional Case
+                                    Studies<a href="#"><img src="img/question.png" alt="questions"></a></div>
+                                <div class="card__plan--include"><img src="img/mark2.png" alt="mark2">Resume & Cover
+                                    Letter Review</div>
+                                <div class="card__plan--include"><img src="img/mark2.png" alt="mark2">A FREE Modeling
+                                    Competition Entry</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h1 class="visually-hidden"></h1>
+            <div class="container">
+                <table class="table">
+                    <thead>
+                        <th></th>
+                        <th class="blue__border">
+                            <div class="th__flex">
+                                <p>All-Access Membership</p>
+                                <p>Basic</p>
+                                <p>$564 / year</p>
+                            </div>
+                        </th>
+                        <th class="grey__border">
+                            <div class="th__flex">
+                                <p>All-Access Membership</p>
+                                <p>Full-Immersion</p>
+                                <p>$924 / year</p>
+                            </div>
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>All 100+ Courses</p> <a href="#">
+                                        <div class="tooltip">
+                                            <img src="img/question.png" alt="question">
+                                            <span class="tooltiptext">Default tooltip. Here <br> you’ll find something
+                                                on the left.</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark3.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>All Certificate Programs</p> <a href="#">
+                                        <div class="tooltip">
+                                            <img src="img/question.png" alt="question">
+                                            <span class="tooltiptext">Default tooltip. Here <br> you’ll find something
+                                                on the left.</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark3.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>Quizzes, Assignments, and Tests</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark3.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>Excel, PPT, and PDF Files</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark3.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td__small">
+                                <div class="td__flex">
+                                    <p>Digital Blockchain Verified<br>Certificate</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark3.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>Another Shared Benefit</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark3.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>Another Shared Benefit</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark3.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>Another Shared Benefit</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark5.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>Exclusive Partner Integrations</p> <a href="#">
+                                        <div class="tooltip">
+                                            <img src="img/question.png" alt="question">
+                                            <span class="tooltiptext">Default tooltip. Here <br> you’ll find something
+                                                on the left.</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark5.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>Premium Email Support</p> <a href="#">
+                                        <div class="tooltip">
+                                            <img src="img/question.png" alt="question">
+                                            <span class="tooltiptext">Default tooltip. Here <br> you’ll find something
+                                                on the left.</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark5.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>Model Review & Feedback</p> <a href="#">
+                                        <div class="tooltip">
+                                            <img src="img/question.png" alt="question">
+                                            <span class="tooltiptext">Default tooltip. Here <br> you’ll find something
+                                                on the left.</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark5.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>Additional Case Studies</p> <a href="#">
+                                        <div class="tooltip">
+                                            <img src="img/question.png" alt="question">
+                                            <span class="tooltiptext">Default tooltip. Here <br> you’ll find something
+                                                on the left.</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark5.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>Résumé & Cover Letter Review</p> <a href="#">
+                                        <div class="tooltip">
+                                            <img src="img/question.png" alt="question">
+                                            <span class="tooltiptext">Default tooltip. Here <br> you’ll find something
+                                                on the left.</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark5.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td__flex">
+                                    <p>One FREE Financial Modeling <br> Competition Entry</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark5.png" alt="mark"></div>
+                            </td>
+                            <td>
+                                <div class="td__flex--two"><img src="img/mark4.png" alt="mark"></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <th></th>
+                        <th>
+                            <div class="th__flex th__flex--media">
+                                <p></p>
+                                <p>Basic</p>
+                                <p class="th__flex--paragraph">$564 / year</p>
+                                <button class="card__plan--button">Enroll Now</button>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="th__flex">
+                                <p></p>
+                                <p>Full-Immersion</p>
+                                <p class="th__flex--paragraph">$924 / year</p>
+                                <button class="card__plan--button card__plan--button--two">Enroll Now</button>
+                            </div>
+                        </th>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+        <section class="section">
+            <h1 class="visually-hidden"></h1>
+            <div class="container">
+                <div class="question__title">Frequently Asked Questions</div>
+                <div class="question">
+                    <div class="questions__item">
+                        <details class="details">
+                            <summary class="details__title">Can I download the Excel files and financial modeling
+                                templates?
+                                <img class="details__image--one" src="img/krest.png" alt="Plus icon">
+                                <img class="details__image--two" src="img/minus.png" alt="Minus icon">
+                            </summary>
+                            <div class="details__content">
+                                <p>content</p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="questions__item">
+                        <details class="details">
+                            <summary class="details__title">How long do I have to complete the course?
+                                <img class="details__image--one" src="img/krest.png" alt="Plus icon">
+                                <img class="details__image--two" src="img/minus.png" alt="Minus icon">
+                            </summary>
+                            <div class="details__content">
+                                <p>content</p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="questions__item">
+                        <details class="details">
+                            <summary class="details__title">Are courses verified?
+                                <img class="details__image--one" src="img/krest.png" alt="Plus icon">
+                                <img class="details__image--two" src="img/minus.png" alt="Minus icon">
+                            </summary>
+                            <div class="details__content">
+                                <p>content</p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="questions__item">
+                        <details class="details">
+                            <summary class="details__title">Are there additional fees or costs?
+                                <img class="details__image--one" src="img/krest.png" alt="Plus icon">
+                                <img class="details__image--two" src="img/minus.png" alt="Minus icon">
+                            </summary>
+                            <div class="details__content">
+                                <p>content</p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="questions__item">
+                        <details class="details">
+                            <summary class="details__title">What currency are your courses priced in?
+                                <img class="details__image--one" src="img/krest.png" alt="Plus icon">
+                                <img class="details__image--two" src="img/minus.png" alt="Minus icon">
+                            </summary>
+                            <div class="details__content">
+                                <p>content</p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="questions__item">
+                        <details class="details">
+                            <summary class="details__title">How do I earn my certificates?
+                                <img class="details__image--one" src="img/krest.png" alt="Plus icon">
+                                <img class="details__image--two" src="img/minus.png" alt="Minus icon">
+                            </summary>
+                            <div class="details__content">
+                                <p>content</p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="questions__item">
+                        <details class="details">
+                            <summary class="details__title">Can I email the instructor if I have questions?
+                                <img class="details__image--one" src="img/krest.png" alt="Plus icon">
+                                <img class="details__image--two" src="img/minus.png" alt="Minus icon">
+                            </summary>
+                            <div class="details__content">
+                                <p>content</p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="questions__item">
+                        <details class="details">
+                            <summary class="details__title">Wil these courses help me advanced my career?
+                                <img class="details__image--one" src="img/krest.png" alt="Plus icon">
+                                <img class="details__image--two" src="img/minus.png" alt="Minus icon">
+                            </summary>
+                            <div class="details__content">
+                                <p>content</p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="questions__item">
+                        <details class="details">
+                            <summary class="details__title">More questions?
+                                <img class="details__image--one" src="img/krest.png" alt="Plus icon">
+                                <img class="details__image--two" src="img/minus.png" alt="Minus icon">
+                            </summary>
+                            <div class="details__content">
+                                <p>content</p>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+            <script>
+                document.querySelectorAll('.details').forEach(details => {
+                    details.addEventListener('toggle', () => {
+                        const plusImage = details.querySelector('.details__image--one');
+                        const minusImage = details.querySelector('.details__image--two');
+
+                        if (details.open) {
+                            plusImage.style.display = 'none'; // Hide plus image
+                            minusImage.style.display = 'block'; // Show minus image
+                        } else {
+                            plusImage.style.display = 'block'; // Show plus image
+                            minusImage.style.display = 'none'; // Hide minus image
+                        }
+                    });
+                });
+            </script>
+        </section>
+    </main>
+    <footer class="footer">
+        <h1 class="footer__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at erat eget eros aliquam mattis </h1>
+        <div class="footer__swiper">
+            <button class="swiper-button swiper-button--large swiper-button-prev"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24.0001 10.4848V13.5152H5.8183L14.1516 21.8485L12.0001 24L0.00012207 12L12.0001 -1.15597e-07L14.1516 2.15152L5.8183 10.4848H24.0001Z" fill="white" />
+              </svg></button>
+            <swiper-container class="mySwiper" space-between="35" loop="true" slides-per-view="3" pagination="true">
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+                <swiper-slide><img src="img/review.png" alt="review"></swiper-slide>
+            </swiper-container>
+            <button class="swiper-button swiper-button--large swiper-button-next"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M-7.62939e-05 10.4848V13.5152H18.1817L9.84841 21.8485L11.9999 24L23.9999 12L11.9999 -1.15597e-07L9.84841 2.15152L18.1817 10.4848H-7.62939e-05Z" fill="white" />
+              </svg></button>
+            <div class="swiper-pagination"></div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
